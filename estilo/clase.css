@@ -1,0 +1,220 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cajaPrincipal {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.ladoIzq,
+.ladoDere {
+    height: 100%;
+    background-image: url("./img/FondoIzq.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+span {
+    font-weight: 100;
+    font-size: 50px;
+    border-bottom: 10px double #ff1b1c;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.carpetas {
+    display: flex;
+    align-items: center;
+}
+
+.carpetas img {
+    width: 90px;
+    height: 100px;
+}
+
+.carpetas a {
+    margin-left: 20px;
+    font-size: 45px;
+    text-decoration: none;
+    border-bottom: 10px double #ff1b1c;
+    color: black;
+
+
+}
+
+h2 {
+    font-size: 40px;
+    color: #db5461;
+    margin: 0;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    height: 88.3%;
+}
+
+.lista div {
+    display: flex;
+    align-items: left;
+    line-height: 2.5;
+}
+
+.lista img {
+    margin-right: 20px;
+}
+
+
+.lista a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #b3a394;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Canva {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Canva img {
+    margin-right: 10px;
+}
+
+.Canva a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.Github {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Github img {
+    margin-right: 10px;
+}
+
+.Github a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.oculto {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    opacity: 0.05;
+    transition: opacity 0.3s ease;
+}
+
+.oculto:hover {
+    opacity: 1;
+}
+
+.atras {
+    position: relative;
+    display: flex;
+    align-items: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.ampliarLista {
+    display: flex;
+    justify-content: center;
+}
+
+.ampliarLista a {
+    text-decoration: none;
+    font-size: 40px;
+    color: hsl(354, 88%, 56%);
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto;
+}
+
+.cajaInterna {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cajaInterna img {
+    margin-right: 20px;
+}
+
+.cajaInterna form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.cajaInterna form input {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+}
