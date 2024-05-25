@@ -23,9 +23,9 @@ Al enviar el formulario, se procesa mediante el archivo `logica.php`.(En el Json
 
 ## Lógica del Proyecto
 Este bloque de código PHP se encarga de gestionar la lectura y escritura de un archivo JSON que contiene información sobre proyectos web.
-Lee el contenido del archivo `carpetaArchivos.json`, decodifica su contenido a un arreglo asociativo de PHP y verifica si la decodificación fue exitosa.
-Si la solicitud al servidor es de tipo GET y se reciben parámetros nombre y direccion, se agrega un nuevo proyecto al arreglo de proyectos. Luego, se ordena alfabéticamente el arreglo por clave (nombre del proyecto), se codifica de nuevo a formato JSON y se sobrescribe el archivo JSON original con los nuevos datos.
-Esta función muestra la lista de proyectos existentes, generando enlaces dinámicos para cada proyecto. Si no hay proyectos disponibles, muestra un mensaje indicando la ausencia de proyectos.
+- Lee el contenido del archivo `carpetaArchivos.json`, decodifica su contenido a un arreglo asociativo de PHP y verifica si la decodificación fue exitosa.
+- Si la solicitud al servidor es de tipo GET y se reciben parámetros nombre y direccion, se agrega un nuevo proyecto al arreglo de proyectos. Luego, se ordena alfabéticamente el arreglo por clave (nombre del proyecto), se codifica de nuevo a formato JSON y se sobrescribe el archivo JSON original con los nuevos datos.
+- Esta función muestra la lista de proyectos existentes, generando enlaces dinámicos para cada proyecto. Si no hay proyectos disponibles, muestra un mensaje indicando la ausencia de proyectos.
  - `logica.php`: Contiene las funciones PHP necesarias para manejar la lógica de agregar y mostrar proyectos.
 
 # Lista de Proyectos
