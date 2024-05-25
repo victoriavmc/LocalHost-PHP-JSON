@@ -57,6 +57,9 @@ function carpetadeArchivos($nombre, $clave, &$archivos, $rutaArchivoJson)
 
 function mostrarArchivos($archivos)
 {
+    // Ordenar el arreglo por clave (nombre) antes de mostrar
+    ksort($archivos);
+
     if (!empty($archivos)) {
         foreach ($archivos as $nombre => $ruta) {
             echo '<div>';
