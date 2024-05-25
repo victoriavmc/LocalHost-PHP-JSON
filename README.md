@@ -1,6 +1,6 @@
 ## LocalHost Diseño Visual Reutilizable!
-Este proyecto tiene como objetivo principal gestionar proyectos web de manera eficiente, permitiendo a los usuarios agregar, listar y acceder a diferentes proyectos a través de una interfaz web simple y funcional.
-Este proyecto facilita la gestión de proyectos web permitiendo una adición y visualización fácil de los mismos mediante una interfaz web. La estructura modular y el uso de plantillas hacen que sea fácil de mantener y expandir.
+- Este proyecto tiene como objetivo principal gestionar proyectos web de manera eficiente, permitiendo a los usuarios agregar, listar y acceder a diferentes proyectos a través de una interfaz web simple y funcional.
+- Este proyecto facilita la gestión de proyectos web permitiendo una adición y visualización fácil de los mismos mediante una interfaz web. La estructura modular y el uso de plantillas hacen que sea fácil de mantener y expandir.
 
 ## Estructura del Proyecto
 El proyecto está organizado en varias secciones y archivos que permiten su correcto funcionamiento.
