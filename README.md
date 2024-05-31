@@ -33,3 +33,7 @@ Este bloque de código PHP se encarga de gestionar la lectura y escritura de un 
 
 # Agregar Proyectos
 ![LocalHost](AgregarProyectos.jpeg)
+
+# Autora
+
+Este proyecto fue desarrollado por VictoriaVMC.
